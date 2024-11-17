@@ -1,6 +1,23 @@
-# Welcome to Remix!
+# Welcome to Supacards
 
-- 📖 [Remix docs](https://remix.run/docs)
+This project uses
+
+- [Remix](https://remix.run/) framework
+- [`remix-flat-routes`](https://github.com/kiliman/remix-flat-routes) for routing
+- [Supabase](https://supabase.com/) for auth and storage
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/) components
+
+## Starter
+
+- [ ] Allow user to play cards
+
+## Supabase enters the chat
+
+- [ ] Anonymous users cannot practice cards
+- [ ] Users can sign up and sign in
+- [ ] Registered users can practice cards
+- [ ] Registered pracrice cards according to their progress
 
 ## Development
 
@@ -12,29 +29,5 @@ npm run dev
 
 ## Deployment
 
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+- [ ] TODO: deploy on fly.io
+- [ ] TODO: write up deployment instructions
