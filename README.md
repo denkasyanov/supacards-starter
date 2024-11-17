@@ -2,6 +2,7 @@
 
 This project uses
 
+- [pnpm](https://pnpm.io/)
 - [Remix](https://remix.run/) framework
 - [`remix-flat-routes`](https://github.com/kiliman/remix-flat-routes) for routing
 - [Supabase](https://supabase.com/) for auth and storage
@@ -24,7 +25,7 @@ This project uses
 Run the dev server:
 
 ```shellscript
-npm run dev
+pnpm run dev
 ```
 
 ## Deployment
